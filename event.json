@@ -4,19 +4,35 @@
         "name": "Test event 1",
         "date": "2024-03-06",
         "organizer": {
-            "name": "fdev",
             "email": "fdev@example.com"
         },
         "status": "active",
         "type": "event",
+        "location": "Budapest, Hungary",
+        "max_attendees": 100,
         "joiners": [
             {
                 "name": "Test User",
-                "email": "test@test.com",
                 "country": "Hungary"
             }
-        ],
-        "location": "Budapest, Hungary",
-        "max_attendees": 100
+        ]
+    },
+    {
+        "id": 0,
+        "name": "string",
+        "date": "string",
+        "organizer": {
+            "email": "meow@gmail.com"
+        },
+        "status": "passive",
+        "type": "party",
+        "location": "string",
+        "max_attendees": 0,
+        "joiners": [
+            {
+                "name": "mr cat",
+                "country": "string"
+            }
+        ]
     }
 ]

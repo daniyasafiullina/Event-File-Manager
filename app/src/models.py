@@ -13,8 +13,11 @@ class Joiner(BaseModel):
 
 class Event(BaseModel):
     id: Optional[int]
+    name: str
     date: str
     organizer: Organizer
     status: str
+    type: Optional[str]
+    location: Optional[str]
     max_attendees: int
     joiners: Optional[List[Joiner]]
